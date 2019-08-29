@@ -2,7 +2,7 @@
 
 def bubble_sort(array)
   j = 0
-  while j < array.length - j
+  while j < array.length - 1
     i = 0
 
     while i < array.length - 1
@@ -19,8 +19,8 @@ def bubble_sort(array)
   array
 end
 
-array = [2, 1, 5, 6, 3, 4, 10, 7, 8, 9]
-arrayb = [3, 2, 4, 0, 78]
+array = [2, 1, 5, 2, 2, 2, 5, 7, 6, 3, 4, 10, 7, 8, 9]
+arrayb = [3, 2, 4, 2, 0, 78]
 bubble_sort array
 puts array
 puts '----------------'
