@@ -1,2 +1,2 @@
-# buble_sort
+# bubble_sort
 hello world
